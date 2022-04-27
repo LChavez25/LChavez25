@@ -1,6 +1,6 @@
 #include <stdio.h>
 float calculate_grades(int num_grades, char type[]);
-void output_letter(float grades[][2]);
+void output_letter(float grades[3][2]);
 int main(void)
 {
     float nHW,wHW,nEx,wEx,nQz,wQz,weights;
